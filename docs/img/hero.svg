@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img" aria-label="token-budget terminal output">
+  <rect width="760" height="330" rx="12" fill="#0d1117"/>
+  <rect width="760" height="34" rx="12" fill="#161b22"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f56"/><circle cx="42" cy="17" r="6" fill="#ffbd2e"/><circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <g font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#c9d1d9">
+    <text x="24" y="66" fill="#8b949e">$ token-budget . --model claude</text>
+    <text x="24" y="96">Folder: .    Total: ~84,300 tokens (312 files)</text>
+    <text x="24" y="118">Limit:  200,000    Usage: 42.2%  <tspan fill="#3fb950">✅ fits</tspan></text>
+    <text x="24" y="150" font-weight="bold">Top 5 files</text>
+    <text x="24" y="172">  ~21,400  data/seed.json     <tspan fill="#3fb950">████████████████████████</tspan></text>
+    <text x="24" y="194">   ~9,800  src/engine.py      <tspan fill="#3fb950">███████████</tspan></text>
+    <text x="24" y="216">   ~6,100  docs/guide.md      <tspan fill="#3fb950">███████</tspan></text>
+    <text x="24" y="238">   ~3,900  src/parser.py      <tspan fill="#3fb950">████</tspan></text>
+    <text x="24" y="260">   ~2,200  README.md          <tspan fill="#3fb950">███</tspan></text>
+    <text x="24" y="292" fill="#8b949e">Skipped: 1,204 files (.gitignore, binary, node_modules)</text>
+    <text x="24" y="314" fill="#8b949e">~ = estimate; real counts depend on the model's tokenizer.</text>
+  </g>
+</svg>
